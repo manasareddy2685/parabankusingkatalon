@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SampleTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="79.721">
+    <properties></properties>
+
+
+
+            <testcase
+                name="BillTest_01"
+                time="79.721"
+                classname="Tests.BillPayTest">
+            </testcase>
+</testsuite>

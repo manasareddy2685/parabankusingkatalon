@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SampleTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.863">
+    <properties></properties>
+
+
+
+            <testcase
+                name="LaunchLogoutUI_TC01"
+                time="0.863"
+                classname="Tests.LogoutTest">
+            </testcase>
+</testsuite>

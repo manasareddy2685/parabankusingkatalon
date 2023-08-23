@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SampleTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.453">
+    <properties></properties>
+
+
+
+            <testcase
+                name="TransactionTest_01"
+                time="20.453"
+                classname="Tests.FindTransactionsTest">
+            </testcase>
+</testsuite>

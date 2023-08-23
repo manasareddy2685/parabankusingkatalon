@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+            <test  name="SampleTest" preserve-order="true">
+         <parameter name = "browser" value = "chrome" />
+                <classes>
+                   <class name="Tests.Register">
+                <methods>
+                    <include name="ClickRegister_TCc01" />
+                </methods>
+               </class>
+                   <class name="Tests.LogoutTest">
+                  <methods>
+                    <include name="LaunchLogoutUI_TC01" />
+                  </methods>
+                  </class>
+                   <class name="Tests.LoginTest">
+                <methods>
+                    <include name="LaunchLoginUI_TC01" />
+                </methods>
+                </class>
+                   <class name="Tests.OpenNewAccountTest">
+                       <methods>
+                           <include name="TestNewAccount_01"/>
+                       </methods>
+                            </class>
+                   <class name="Tests.TransferFundsTest">
+                       <methods>
+                           <include name="TestTransferFund_01"/>
+                       </methods>
+                   </class>
+
+                    <class name="Tests.BillPayTest">
+                       <methods>
+                           <include name="BillTest_01"/>
+                       </methods>
+                   </class>
+
+                    <class name="Tests.FindTransactionsTest">
+                   <methods>
+                       <include name="TransactionTest_01"/>
+                   </methods>
+                   </class>
+
+                    <class name="Tests.AccountOverviewTest">
+                        <methods>
+                            <include name="OverViewTest_011"/>
+                        </methods>
+                    </class>
+
+              <class name="Tests.RequestLoanTest">
+                  <methods>
+                      <include name="RequestTest_01"/>
+                  </methods>
+              </class>
+                </classes>
+            </test>
+       </suite>
